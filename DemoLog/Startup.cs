@@ -21,9 +21,9 @@ namespace DemoLog
         {
             Configuration = configuration;
 
-            Log.Logger = new LoggerConfiguration()
+          /*  Log.Logger = new LoggerConfiguration()
               .WriteTo.File("log.txt", rollingInterval: RollingInterval.Day)
-             .CreateLogger();
+             .CreateLogger();*/
 
 
         }
